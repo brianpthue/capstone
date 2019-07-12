@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Master of Arts in Graphic and Web Design Capstone Project
+ * A Beautiful Threshold
+ style.css
+/*
+
+
+/* Globals */
+
+html {
+	box-sizing: border-box;
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	background: #b0d5f0;
+}
+
+}
