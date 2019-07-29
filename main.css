@@ -8,6 +8,12 @@
 
 /* Globals */
 
+@font-face {
+	font-family: "OptimaLTStd";
+	src: url("fonts/OptimaLTStd.woff"),
+		 url("fonts/OptimaLTStd.ttf");
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -20,4 +26,112 @@ html {
 	background: #b0d5f0;
 }
 
+body {
+	/* border: 1px solid blue; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #221d3b;
+	font-family: "OptimaLTStd", sans-serif;
+	/*margin: 15em 20em;*/
+	width: 49%;
+	margin: 15em auto;
+}
+
+
+/* Navigation */
+
+.main-nav {
+	/* border: 1px solid red; */
+	color: #171837;
+	letter-spacing: 0.1em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.main-nav img {
+	/* border: 1px solid blue; */
+	display: block;
+	margin: 0 auto;
+}
+
+.main-nav ul {
+	/* border: 1px solid turquoise; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.main-nav li {
+	/* border: 1px solid yellow; */
+	transition: all 1s;
+	opacity: 1.0;
+}
+
+.main-nav li a {
+	color: #bf7372;
+	text-decoration: none;
+}
+
+.main-nav li a:hover {
+	color: #6d1a34;
+	transition: all 1s;
+}
+
+
+/* Main Content */
+
+h1 {
+	/* border: 1px solid green; */
+	font-size: 3em;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin-bottom: 3.236em;
+}
+
+h2, h3, h4 {
+	font-weight: lighter;
+	letter-spacing: 0.05em;
+	margin-top: 3.236em;
+	margin-bottom: 1.618em;
+}
+
+blockquote, p {
+	font-size: 1.2em;
+	font-weight: lighter;
+	letter-spacing: 0.05em;
+	line-height: 1.618;
+	margin-bottom: 3.236em;
+}
+
+blockquote {
+	color: #276979;
+}
+
+sup {
+	font-size: 0.1618em;
+}
+
+.page-header {
+	/* border: 1px solid red; */
+}
+
+.page-header img {
+	/* border: 1px solid green; */
+	display: block;
+	margin: 0 auto;
+	width: 12%;
+	height: auto;
+}
+
+
+/* Page Footer */
+
+.page-footer {
+	/* border: 1px solid red; */
 }
